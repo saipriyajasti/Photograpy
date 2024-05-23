@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Photography Portfolio</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 0;
+        background-color: #f0f0f0;
+      }
+
+      header {
+          background-color: #333;
+          color: white;
+          padding: 10px 0;
+          text-align: center;
+      }
+
+      header .mainhead {
+          font-size: 24px;
+          font-weight: bold;
+          text-align: center;
+      }
+
+      nav ul {
+          list-style-type: none;
+          padding: 0;
+      }
+
+      nav ul li {
+          display: inline;
+          margin: 0 15px;
+      }
+
+      nav ul li a {
+          color: white;
+          text-decoration: none;
+          font-size: 18px;
+      }
+
+      main {
+          padding: 20px;
+      }
+
+      .gallery {
+          display: flex;
+          flex-wrap: wrap;
+          justify-content: center;
+          gap: 20px;
+      }
+
+      .photo {
+          background-color: white;
+          border-radius: 5px;
+          box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+          overflow: auto;
+          width: 300px;
+          text-align: center;
+      }
+
+      .photo img {
+          width: 300px;
+          height: 400px;
+          display: block;
+      }
+
+      .description {
+          padding: 15px;
+      }
+
+      .description h2 {
+          margin: 0;
+          font-size: 20px;
+      }
+
+      .description p {
+          margin: 10px 0 0;
+      }
+
+      footer {
+          background-color: #333;
+          color: white;
+          text-align: center;
+          padding: 10px 0;
+          margin-top: 30px;
+      }
+
+    </style>
+</head>
+<body>
+    <header>
+        <div class="mainhead">My Photography</div>
+        <nav>
+            <ul>
+                <li><a href="#">Home</a></li>
+                <li><a href="#">Gallery</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section class="gallery">
+            <div class="photo">
+                <img src="image1.jpg" alt="Beautiful Landscape">
+                <div class="description">
+                    <h2>Beautiful Landscape</h2>
+                    <p>A breathtaking view of the mountains during sunset.</p>
+                </div>
+            </div>
+            <div class="photo">
+                <img src="image2.jpg" alt="City at Night">
+                <div class="description">
+                    <h2>City at Night</h2>
+                    <p>The city lights create a stunning nightscape.</p>
+                </div>
+            </div>
+            <div class="photo">
+                <img src="image3.jpg" alt="Serene Beach">
+                <div class="description">
+                    <h2>Serene Beach</h2>
+                    <p>A peaceful beach with crystal clear water.</p>
+                </div>
+            </div>
+        </section>
+    </main>
+    <footer>
+        <p>&copy; 2024 My Photography. All Rights Reserved.</p>
+    </footer>
+</body>
+</html>
